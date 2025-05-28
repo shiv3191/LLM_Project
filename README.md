@@ -145,10 +145,15 @@ Returns status of the server and evaluator.
 
 ---
 
+
 ## 👨‍💻 Author
+
 
 - **Shiv Patel**
 
 ---
+![Screenshot 2025-05-28 113634](https://github.com/user-attachments/assets/0e6ca92f-65e3-4fb1-871b-a7e9bfee4a6d)
+
+![Screenshot 2025-05-28 113655](https://github.com/user-attachments/assets/93c79e3f-d688-4fe8-b37b-375a43409f02)
 
 
