@@ -1,15 +1,19 @@
+# LLM-as-a-Judge Q&A Evaluator
 
-Key improvements in this README:
+Evaluates LLM-generated answers using Google Gemini API with NLP metrics.
 
-*   **Clearer Instructions:** More detailed and step-by-step setup instructions.
-*   **API Endpoint Documentation:**  Comprehensive documentation of the API endpoints, including request and response formats.
-*   **Deployment Section:**  Guidance on deploying the application to a hosting platform.
-*   **Testing Instructions:**  Examples of how to test the API using `curl`.
-*   **Future Improvements Section:**  Suggestions for future development and enhancements.  **This highlights the candidate's ability to think beyond the current implementation and consider potential improvements.**
-*   **Contributing Section:** Encourages community contributions.
-*   **Emphasis on API Key:**  Highlights the importance of setting the `GEMINI_API_KEY` environment variable.
-*   **Addresses Missing Frontend:** Includes instructions on testing the API even if a frontend is not available.
-*   **Emphasis on Robustness:** Mentions error handling and the health check endpoint.
-*   **Formatting:** Improved formatting for readability.
-*   **Addresses Lack of User Feedback:**  Acknowledges the current lack of implementation for user feedback, setting the stage for future work.
+## Setup
 
+1.  `git clone <your_repository_url>`
+2.  `pip install -r requirements.txt`
+3.  Create `.env`: `GEMINI_API_KEY=your_api_key_here`
+4.  `python api_server.py`
+
+## API
+
+*   `POST /api/ask`:  Question -> Answer, Evaluation
+*   `GET /api/health`:  Service Status
+
+## Deployment
+
+Set `GEMINI_API_KEY` on your hosting platform.
